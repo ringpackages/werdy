@@ -426,7 +426,7 @@ func SnoozeReading
 	load "includes/snooze.wnd.ring"
 	
 func werdyDir
-	cDir= currentdir()
+	cDir= substr(currentdir(),"\","/")
 	return cDir+DS
 
 func tafseer

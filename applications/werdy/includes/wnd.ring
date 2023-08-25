@@ -50,7 +50,7 @@ MainWin = New qApp {
 
 /* main tab */			
 			page1 = new qwidget() {
-				suraText = new qLabel(page1) {}
+				suraText = new qLabel(page1) { setmaximumheight(30) }
 				pageNum = new qLabel(page1) {}
 				jozNum = new qLabel(page1) {}
 				
