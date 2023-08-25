@@ -69,7 +69,7 @@ FavWin = New qApp {
 			addWidget(goToFavBtn)
 		}
 		
-		layout211= new qVBoxLayout(winaddfav)
+		layout211= new qVBoxLayout()
 		{
 			addLayout(layout209)
 			addWidget(table3)
